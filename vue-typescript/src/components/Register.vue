@@ -9,21 +9,9 @@
         required
       />
     </div>
-    <div class="form-group">
-      <label>Password</label>
-      <input
-        v-model="form.password"
-        class="form-control"
-        type="password"
-        placeholder="Password"
-        required
-      />
-    </div>
     <div class="text-danger my-2">error</div>
     <div class="d-flex justify-content-center my-2">
-      <button class="btn btn-success btn-block mr-2" type="submit">Login</button>
-      <button class="btn btn-primary btn-block ml-2" type="button" @click="onRegisterClick">Register</button>
-    </div>
+      </div>
   </form>
 </template>
 
